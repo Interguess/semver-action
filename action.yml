@@ -1,0 +1,19 @@
+name: Changelog Action
+description: 'This github action calculates a semantic version based on the base tag, head tag, and upgrade type.'
+author: 'Interguess.com'
+inputs:
+  baseTag:
+    description: 'Base (start) tag'
+    required: true
+  headTag:
+    description: 'Head (end) tag'
+    required: true
+  upgradeType:
+    description: 'Type of upgrade (major, minor, patch)'
+    required: true
+outputs:
+  version:
+    description: 'The calculated semantic version'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
