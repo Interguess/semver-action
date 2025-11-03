@@ -13,13 +13,13 @@
   },
   "devDependencies": {
     "@types/node": "^20.19.10",
-    "@vercel/ncc": "^0.38.3",
-    "eslint": "^9.9.0",
+    "@vercel/ncc": "^0.38.4",
+    "eslint": "^9.39.0",
     "prettier": "^3.3.3",
-    "rimraf": "^6.0.1",
+    "rimraf": "^6.1.0",
     "ts-node": "^10.9.2",
     "tslib": "^2.6.3",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   },
   "description": "This GitHub Action generates a semantic version based on a baseTag, headTag and upgradeType. It can be used to determine the next version number for a project based on the changes made between two tags.",
   "repository": {
