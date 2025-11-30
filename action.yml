@@ -1,5 +1,5 @@
 name: SemVer Action
-description: 'This github action calculates a semantic version based on the base tag, head tag, and upgrade type.'
+description: 'This GitHub action calculates a semantic version based on the base tag, head tag, and upgrade type.'
 author: 'Interguess.com'
 inputs:
   baseBranch:
