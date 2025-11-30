@@ -1,15 +1,21 @@
-name: Changelog Action
+name: SemVer Action
 description: 'This github action calculates a semantic version based on the base tag, head tag, and upgrade type.'
 author: 'Interguess.com'
 inputs:
-  baseTag:
-    description: 'Base (start) tag'
-    required: true
-  headTag:
-    description: 'Head (end) tag'
+  baseBranch:
+    description: 'Base branch'
     required: true
   upgradeType:
-    description: 'Type of upgrade (major, minor, patch)'
+    description: 'Upgrade type (MAJOR / MINOR / PATCH)'
+    required: true
+  lastTag:
+    description: 'Last tag'
+    required: true
+  lastMainTag:
+    description: 'Last main tag'
+    required: true
+  lastDevelopTag:
+    description: 'Last develop tag'
     required: true
 outputs:
   version:
