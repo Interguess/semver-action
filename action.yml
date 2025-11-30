@@ -7,7 +7,6 @@ inputs:
     required: true
   upgradeType:
     description: 'Upgrade type (MAJOR / MINOR / PATCH)'
-    required: true
   lastTag:
     description: 'Last tag'
     required: true
